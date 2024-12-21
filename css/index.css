@@ -1,0 +1,198 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+:root{
+    --main-color : #1E202B;
+    --secondary-color: #009AD8;
+    --third-color: #262936
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    color: white;
+}
+h1{
+    font-size: 40px !important;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+.nav-link:hover{
+   border-color: var(--secondary-color);
+    color: var(--secondary-color) !important;
+    cursor: pointer;
+}
+.active{
+    border-color: var(--secondary-color);
+    color: var(--secondary-color) !important;
+    cursor: pointer;
+    
+}
+header{
+    background-color: var(--main-color);
+    padding: 45px;
+}
+.tabs{
+    list-style: none;
+}
+.lean{
+    font-size: 10px;
+    color: gray;
+}
+.content{
+    background-image: url(../image/banner.png);
+    background-color: var(--main-color);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.locationBtn{
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: transparent;
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right: 5px;
+    top: 6px;
+}
+.locationInput{
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: var(--main-color);
+}
+.locationInput:focus{
+    outline: none;
+    color: white;
+}
+.card{
+    border: 1px solid #32354400;
+    border-radius: 20px;
+    box-shadow: (-10px 93px 39px white);
+}
+.card-content{
+    background-color: #323544;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: transparent;
+
+}
+.head{
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: transparent;
+}
+.temp{
+    font-size: 70px;
+    font-weight: 600;
+}
+.sun-icon{
+    width: 70px;
+}
+.compass-icon , .wind-icon , .umberlla-icon{
+    width: 20px;
+}
+footer{
+    background-color: var(--third-color);
+}
+.subscripInput{
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: var(--main-color);
+}
+.subscripBtn{
+    position: absolute;
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: transparent;
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 22px;
+    right: 5px;
+}
+.copyright{
+    font-size: 13px;
+    padding: 0;
+}
+.facebook , .twitter , .google , .paintrest{
+    width:40px ;
+    height: 40px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    color: var(--secondary-color);
+    transition:all 0.3s ease-in-out;
+}
+
+.facebook:hover{
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+}
+.twitter:hover{
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+}
+.google:hover{
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+}
+.paintrest:hover{
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+}
+.direction-nav{
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: var(--third-color);
+}
+.direction{
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: var(--third-color);
+}
+.info-input{
+    background-color:transparent;
+    border: 2px solid var(--third-color);
+    border-radius: 20px;
+    color: white;
+}
+.info-input:focus{
+    outline: none;
+    border-color: var(--secondary-color);
+}
+.info-input:hover{
+    border-color: var(--secondary-color);
+}
+textarea{
+    color: rgb(153, 15, 15);
+}
+.submitBtn{
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: var(--secondary-color);
+    color: white;
+}
